@@ -1,0 +1,22 @@
+Create an express application that has the following 3 routes
+GET /add - to accept 2 query parameters called: num1, num2
+This route should return the sum of both number.
+
+Example:
+Request: Get /add>num1=5&2num=4
+Response: 9
+
+
+Post /double/:num - this route accepts a number as a path parameters
+and returns the double the number as a Response
+
+Example:
+Request: Post /double/5
+Response: 10
+
+put /multiply - this route accepts 2 numbers in the request body
+and return the product of both numbers
+
+Example:
+Request: PUT /multiply{ num1: 15, num2: 3}
+Response: 45
